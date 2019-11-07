@@ -1,0 +1,36 @@
+.block{
+	width: 550px;
+	height: 130px;
+	background: #ededec;
+	border: 1px solid gray;
+	margin-top: 2rem;
+}
+.blockquote::before{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #03c9a9;
+	border-radius: 50%;
+	font-family: arial;
+	content: "\201C";
+	position: absolute;
+	font-size: 5.8rem;
+	top: 40%;
+	left: 2rem;
+	color: white;
+	font-weight: bold;
+	line-height: 100%;
+	text-align: center;
+}
+.main{
+	padding: 1rem 1rem 0 5rem;
+	font-size: 16px;
+	font-style: italic;
+	float: right;
+}
+.blockquote-footer{
+	float: right;
+	padding-right: 1.5rem;
+	font-size: 16px;
+	font-style: italic;
+}

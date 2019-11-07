@@ -1,0 +1,41 @@
+.Img{
+	width: 200px;
+	height: 300px;
+	border-radius: 150px;
+	margin-right: 1rem;
+	margin-left: -1rem;
+}
+.Img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 150px;
+}
+.blockquote{
+	position: relative;
+	padding: 5rem 0 0 3rem;
+
+}
+.blockquote::before{
+	font-family: arial;
+	content: "\201C";
+	position: absolute;
+	font-size: 3rem;
+	top: 3.7rem;
+	left: 1.3rem;
+	color: black;
+	font-weight: bold;
+}
+.blockquote-footer{
+	font-size: 20px;
+	padding-left: 2rem;
+}
+@media screen and (max-width: 992px){
+	.Img{
+		margin-top: 7rem;
+	}
+}
+@media screen and (max-width: 768px){
+	.Img{
+		margin: 0 auto;
+	}
+}

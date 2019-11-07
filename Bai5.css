@@ -1,0 +1,68 @@
+.box{
+	margin-top: 1rem;
+	width: 400px;
+	height: 170px;
+	background: #fffeff;
+	box-shadow: 0 -3px 7px #bbc1bf;
+	color: #bababa;
+	font-style: italic;
+	font-family: Time New Roman;
+}
+.main{
+	padding: 1rem 1.5rem 1rem 2rem;
+	text-indent: 3rem;
+}
+.blockquote::before{
+	font-family: arial;
+	content: "\201C";
+	position: absolute;
+	font-size: 8rem;
+	top: -2.5rem;
+	left: 1.3rem;
+	color: #be90ce;
+	font-weight: bold;
+	text-shadow: 5px 8px 5px #e9e8eb;
+}
+.Name{
+	width: 400px;
+	height: 70px;
+	/*background: red;*/
+}
+.Name .name{
+	float: left;
+	width: 80%;
+	margin-right: 5%;
+	height: 100%;
+	/*background: lightgreen;*/
+}
+.Name .ima{
+	float: left;
+	margin-top: 1.5%;
+	width: 15%;
+	height: 85%;
+	/*background: green;*/
+	border-radius: 50%;
+	box-shadow: 0 -3px 7px #bbc1bf;
+}
+.Name .ima img{
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	margin: 10%;
+	background: black;
+}
+.Name .name .top{
+	padding: 0;
+	margin: 0;
+	float: right;
+	padding-top: 0.5rem;
+	font-weight: bold;
+	color: #be90ce;
+}
+.Name .name .bot{
+	clear: right;
+	float: right;
+	font-size: 14px;
+	color: white;
+	text-shadow: 2px -3px 8px black;
+}

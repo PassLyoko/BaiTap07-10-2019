@@ -1,0 +1,39 @@
+.Img{
+	width: 200px;
+	height: 300px;
+	border-radius: 150px;
+	margin-right: 1rem;
+	margin-left: -1rem;
+}
+.Img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 150px;
+}
+.blockquote{
+	font-family: giolinh;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	margin: 5rem 0 0 3rem;
+}
+.block{
+	width: 100%;
+	height: auto;
+}
+.footter{
+	font-family: giolinh;
+	font-size: 20px;
+	padding-left: 3rem;
+	font-weight: bold;
+}
+@media screen and (max-width: 992px){
+	.Img{
+		margin-top: 7rem;
+	}
+}
+@media screen and (max-width: 768px){
+	.Img{
+		margin: 0 auto;
+	}
+}

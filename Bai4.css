@@ -1,0 +1,53 @@
+.block{
+	width: 350px;
+	height: 270px;
+	background: #52decc;
+	border-radius: 20px;
+	box-shadow: 5px 5px #e1e1e1;
+	color: white;
+}
+.blockquote{
+	position: relative;
+	padding: 4rem 1.5rem 1.5rem 1.5rem;
+	font-size: 20px
+}
+.blockquote::before{
+	font-family: tahoma;
+	content: "\201C";
+	position: absolute;
+	font-size: 5rem;
+	top: 0;
+	left: 1.4rem;
+	color: white;
+	font-weight: bold;
+}
+.line{
+	opacity: 0.8;
+	width: 85%;
+	height: 1.5px;
+	margin: 0 auto;
+}
+.name{
+	float: left;
+	padding:1rem 0 0 1.5rem;
+	font-size: 20px;
+}
+.box{
+	float: left;
+	width: 50px;
+	height: 25px;
+	border-radius: 12.5px;
+	background: #42b1a3;
+	text-align: center;
+	margin: 1.2rem 0 0 4rem;
+}
+.heart{
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 1.1rem 0 0 0.5rem;
+}
+.heart img{
+	width: 100%;
+	height: 100%;
+}
